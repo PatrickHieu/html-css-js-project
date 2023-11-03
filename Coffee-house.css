@@ -1,0 +1,318 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.toolbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.toolbar:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.toolbar:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.toolbar-flex {
+    display: flex;
+    
+}
+
+.toolbar-color {
+    color: #fff;
+    background-color: #000;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.toolbar-ingredient {
+    width: 24.5%;
+    float: left;
+}
+
+.toolbar-ingredient:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.ingredient-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.img-flex {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    min-height: 75%;    
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-grayscale {
+    filter: grayscale(50%);
+}
+
+header {
+    display: block;
+}
+
+.img-padding {
+    padding: 12px 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.display-bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.display-bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-color {
+    color: #fff;
+}
+
+.extension-flex {
+    color: #000;
+    background-color: #fdf5e6;
+    font-size: 18px;
+    filter: grayscale(75%);
+}
+
+.extension-container {
+    padding: 0.01em 16px;
+}
+
+.extension-content {
+    margin-left: 393.6px;
+    margin-right: 393.6px;
+    max-width: 980px;
+}
+
+h5{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.about-padding {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.wide {
+    letter-spacing: 4px;
+}
+
+p {
+    margin: 18px 0;
+}
+
+.panel {
+    margin: 16px 0;
+    padding: 0.01em 16px;
+}
+
+.left-bar {
+    border-left: 6px solid #ccc;
+}
+
+.light-grey {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.margin-top {
+    margin-top: 16px;
+}
+
+.extension-padding-48 {
+    padding-top: 48px; 
+    padding-bottom: 48px    ;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+a {
+    color: inherit;
+    background-color: transparent;
+}
+
+.col {
+    float: left;
+}
+
+.tab-width {
+    width: 50%
+}
+
+.tab-dark-grey {
+    color: #fff;
+    background-color: #616161;
+}
+
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.extension-container:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.extension-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-gray {
+    color: #757575;
+}
+
+.location-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.input-padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+}
+
+.input-color {
+    color: #fff;
+    background-color: #000;
+}
+
+.input-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.input-button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+footer {
+    font-size: 18px;
+}
+
+.info:hover {
+    color: #8e8c8c;
+}
+
+.menu-choose {
+    cursor: pointer;
+}
+
+#menu-part {
+    display: none;
+}
+
+#menu-part.active {
+    display: block;
+}

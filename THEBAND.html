@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BAND</title>
+    <link rel="stylesheet" href="./THEBAND.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Toolbar -->
+    <div class="header">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">  
+                <a href="#band" class="nav__link">Band</a>
+            </li>
+            <li class="nav__item">
+                <a href="#tour" class="nav__link">Tour</a>
+            </li>
+            <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__item">
+                <div class="dropdown">
+                <button class="dropbtn" title="More">
+                    MORE
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#" class="sub-nav__link">Merchandise</a></li>
+                            <li><a href="#" class="sub-nav__link">Extras</a></li>
+                            <li><a href="#" class="sub-nav__link">Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="nav__item">
+                <a href="javascript:void(0)" class="nav__link nav_search">
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Slideshow -->
+    <div class="container-slides" style="max-width: 2000px">
+        <div class="content">
+            <div class="slide slide_1">
+                <img src="https://www.w3schools.com/w3images/la.jpg" alt="IMAGE">
+                <div class="imginfo">
+                    <h3>Los Angeles</h3>
+                    <p>
+                        <b>We had the best time playing at Venice Beach! </b>
+                    </p>
+                </div>
+            </div>
+            <div class="slide slide_2">
+                <img src="https://www.w3schools.com/w3images/ny.jpg" alt="IMAGE 2">
+                <div class="imginfo">
+                    <h3>New York</h3>
+                    <p>
+                        <b>The atmosphere in New York is lorem ipsum. </b>
+                    </p>
+                </div>
+            </div>
+            <div class="slide slide_3">
+                <img src="https://www.w3schools.com/w3images/chicago.jpg" alt="IMAGE 3">
+                <div class="imginfo">
+                    <h3>Chicago</h3>
+                    <p> 
+                        <b>Thank you, Chicago - A night we won't forget. </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Band -->
+    <div class="theband" style="max-width: 800px;" id="band">
+        <h2 class="title-1">THE BAND</h2>
+        <p class="tb-content-1">
+            <i>We love music</i>
+        </p>
+        <p class="tb-content-2">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="tb-name">
+            <div class="name-1">
+                <p class="name-2">Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name" style="width: 60%" class="tb-img">
+            </div>
+            <div class="name-1">
+                <p class="name-2">Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name" style="width: 60%" class="tb-img">
+            </div>
+            <div class="name-1">
+                <p class="name-2">Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Random Name" style="width: 60%" class="tb-img">
+            </div>
+        </div>
+    </div>
+    <!-- Tour -->
+    <div class="tourdate" id="tour">
+        <div class="td-1" style="max-width: 800px;">
+            <h2 class="td-2">TOUR DATES</h2>
+            <p class="td-3">
+                <i>Remember to book your tickets!</i>
+            </p>
+            <br>
+            <ul class="td-4 ticket-sold-date">
+                <li class="td-5">
+                    September
+                    <span class="td-6"> Sold out</span>
+                </li>
+                <li class="td-5">
+                    October
+                    <span class="td-6"> Sold out</span>
+                </li>
+                <li class="td-5 date-info">
+                    <div class="date-info__time">November</div>
+                    <div class="date-info__num-ticks"><span class="td-6 td-7"> 3</span></div>
+                </li>
+            </ul>
+            <!-- Ticketbox -->
+            <div class="tickets-box" style="margin: 0 -16px;">
+                <div class="tickets-small-box">
+                    <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="New York" style="width: 100%;" class="tickets-img">
+                    <div class="tickets-info">
+                        <p class="tickets-location">
+                            <b>New York</b>
+                        </p>
+                        <p class="tickets-date">Fri 27 Nov 2016</p>
+                        <p class="tickets-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="buy-button" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="tickets-small-box">
+                    <img src="	https://www.w3schools.com/w3images/paris.jpg" alt="New York" style="width: 100%;" class="tickets-img">
+                    <div class="tickets-info">
+                        <p class="tickets-location">
+                            <b>Paris</b>
+                        </p>
+                        <p class="tickets-date">Sat 28 Nov 2016</p>
+                        <p class="tickets-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="buy-button" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="tickets-small-box">
+                    <img src="	https://www.w3schools.com/w3images/sanfran.jpg" alt="New York" style="width: 100%;" class="tickets-img">
+                    <div class="tickets-info">
+                        <p class="tickets-location">
+                            <b>San Francisco</b>
+                        </p>
+                        <p class="tickets-date">Sun 29 Nov 2016</p>
+                        <p class="tickets-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="buy-button" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ticketsmodal -->
+    <div id="ticketModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <header class="header-ticketbuy">
+                <span onclick="document.getElementById('ticketModal').style.display='none'" class="exit-button">×</span>
+                <h2 class="name-ticket">
+                    <i class="fa fa-suitcase suitcase-icon"></i>
+                    Tickets
+                </h2>   
+            </header>
+            <div class="buy-box">
+                <p class="money">
+                    <label>
+                        <i class="fa fa-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                </p>
+                <input class="input" type="text" placeholder="How many?">
+                <p class="sendto">
+                    <label>
+                        <i class="fa fa-user"></i>
+                        Send To
+                    </label>
+                </p>
+                <input class="input" type="text" placeholder="Enter email">
+                <button class="pay-button">
+                    PAY
+                    <i class="fa fa-check"></i>                    
+                </button>
+                <button class="close-button buy-button" onclick="document.getElementById('ticketModal').style.display='none'">
+                    Close
+                    <i class="fa fa-remove"></i>
+                </button>
+                <p class="help-button">
+                    Need
+                    <a href="#" class="help-text">help?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contactbox" style="max-width: 800px;" id="contact">
+        <h2 class="contact-content">CONTACT</h2>
+        <p class="contact-note">
+            <i>Fan? Drop a note!</i>
+        </p>
+        <div class="contact-info">
+            <div class="work-info">
+                <i class="fa fa-map-marker" style="width: 30px;"></i>
+                Chicago, US
+                <br>
+                <i class="fa fa-phone" style="width: 30px;"></i>
+                Phone: +00151515
+                <br>
+                <i class="fa fa-envelope" style="width: 30px;"></i>
+                Email: mail@gmail.com
+            </div>
+            <div class="user-info">
+                <form action="/action_page.php" target="_blank">
+                    <div class="username-email" style="margin: 0px -16px 8px -16px;">
+                        <div class="user-input">
+                            <input class="input" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="user-input">
+                            <input class="input" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="input message-input" type="text" placeholder="Message" required name="Message">
+                    <button class="send-button" type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Endpage-content -->
+    <img src="https://www.w3schools.com/w3images/map.jpg" alt="Map" class="endpage-img" style="width: 100%;">
+    <footer class="endpage">
+        <div class="iconfooter">
+        <i class="fa fa-facebook-official" class="iconfooter"></i>
+        <i class="fa fa-instagram" class="iconfooter"></i>
+        <i class="fa fa-snapchat" class="iconfooter"></i>
+        <i class="fa fa-pinterest-p" class="iconfooter"></i>
+        <i class="fa fa-twitter" class="iconfooter"></i>
+        <i class="fa fa-linkedin" class="iconfooter"></i>
+        <p class="endpage-des">
+            Powered by 
+            <a href="https://www.facebook.com/profile.php?id=100023687853256">patrick_hi3u</a>
+        </p>
+    </div>
+    </footer>
+</body>
+</html>
